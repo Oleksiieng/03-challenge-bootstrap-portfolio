@@ -36,6 +36,10 @@
     padding: 5px;
 }
 
+.no-entry-cursor {
+    cursor: not-allowed;
+}
+
 footer {
     margin-top: 3vh;
     background-color: var(--background-color-gray);
