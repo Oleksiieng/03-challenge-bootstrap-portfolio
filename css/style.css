@@ -1,3 +1,13 @@
+:root {
+    --background-color-gray:  rgba(0, 0, 0, 0.5);
+}
+
 .list-icons i {
     font-size: 5vh;
+}
+
+
+footer {
+    margin-top: 3vh;
+    background-color: var(--background-color-gray);
 }
