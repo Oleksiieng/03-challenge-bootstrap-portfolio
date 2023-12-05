@@ -16,7 +16,7 @@ The following image shows the web application's appearance and functionality:
 ### User Story
 
 ```
-For Challenge 2, we were tasked with creating a portfolio website.
+For Challenge 3, we were tasked with creating a portfolio website.
 ```
 
 ### Website meets accessibility standards:
