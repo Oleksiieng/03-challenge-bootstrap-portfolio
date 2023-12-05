@@ -2,6 +2,23 @@
     --background-color-gray:  rgba(0, 0, 0, 0.5);
 }
 
+
+.carousel-caption h2 {
+    font-size: 24px;
+}
+
+.carousel-caption img {
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
 .list-icons i {
     font-size: 5vh;
 }
@@ -10,4 +27,18 @@
 footer {
     margin-top: 3vh;
     background-color: var(--background-color-gray);
+}
+
+
+@media (max-width: 768px) {
+    .carousel-caption h2 {
+        font-size: 14px;
+    }
+    .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption img {
+        width: 100px;
+    }
 }
