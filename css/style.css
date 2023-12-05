@@ -2,26 +2,14 @@
     --background-color-gray:  rgba(0, 0, 0, 0.5);
 }
 
-
-.carousel-caption h2 {
-    font-size: 24px;
-}
-
-.carousel-caption img {
-    width: 150px;
-}
-
-
-
-
-
-
-
-
-
 .list-icons i {
     font-size: 5vh;
 }
+
+.carousel-item img {
+    filter: brightness(70%);
+}
+
 
 
 footer {
