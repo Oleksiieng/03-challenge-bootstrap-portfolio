@@ -10,7 +10,31 @@
     filter: brightness(70%);
 }
 
+.image-tile {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
 
+.image-tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.image-tile img:hover {
+    filter: brightness(120%);
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+}
 
 footer {
     margin-top: 3vh;
